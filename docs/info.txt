@@ -1,3 +1,4 @@
 
 curl -fLsS "https://soap.domain.com/?wsdl" -o soapapp.wsdl \
   && echo "WSDL downloaded successfully"
+workon soapenv
