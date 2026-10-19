@@ -30,6 +30,7 @@ FRONTEND_DIR = os.environ.get("FRONTEND_DIR")
 # ==========================================
 
 class Employee(ComplexModel):
+    __namespace__ = "http://example.com/calculator"
     employee_id = Integer
     name = Unicode
     salary = SpyneDecimal
